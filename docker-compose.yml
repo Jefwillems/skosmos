@@ -16,12 +16,6 @@ services:
       - 8000:80
     depends_on:
       - fuseki
-  vocbench:
-    build: ../Vocbench
-    ports:
-      - 1979:1979
-    command: sh /home/install_vocbench.sh
-
 # once the environment has been created:
 # 1. create dataset
 # >curl -I -u admin:admin -XPOST --data "dbName=skosmos&dbType=tdb" -G http://localhost:3030/$/datasets/
