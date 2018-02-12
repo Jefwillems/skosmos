@@ -82,5 +82,10 @@
       "model/",
       "model/sparql/"
     ]
+  },
+  "config": {
+    "github-protocols": [
+      "https"
+    ]
   }
 }
