@@ -86,6 +86,11 @@
   "config": {
     "github-protocols": [
       "https"
-    ]
+    ],
+    "http": {
+      "header": [
+        "API-TOKEN: 87de902c067a1fccc87aaf57bb3bd1e8bd544d01"
+      ]
+    }
   }
 }
