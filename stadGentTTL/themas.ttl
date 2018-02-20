@@ -25,8 +25,8 @@ skosmos:Vocabulary, void:Dataset ;
     skosmos:shortName "THEMAS";
     skosmos:feedbackRecipient "example@example.com" ;
     skosmos:showChangeList "true" ; 
-    void:sparqlEndpoint <http://fuseki:3030/gentdb/query> ;
-	skosmos:sparqlGraph <http://localhost:3030/gentdb/data> .
+    void:sparqlEndpoint <http://sparql-skosmos.e4ff.pro-eu-west-1.openshiftapps.com/fin/query> ;
+	skosmos:sparqlGraph <http://sparql-skosmos.e4ff.pro-eu-west-1.openshiftapps.com/fin/data> .
 
 
 <http://stad.gent/id/ns/themas/> a skos:ConceptScheme; 

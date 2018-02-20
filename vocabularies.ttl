@@ -18,26 +18,26 @@
     dc:title "Diensten Thesaurus"@nl, "Service Thesaurus"@en ;
     skosmos:shortName "Diensten";
     dc:subject :cat_general ;
-    void:uriSpace "http://fuseki:3030/gentdb";
+    void:uriSpace "http://sparql-skosmos.e4ff.pro-eu-west-1.openshiftapps.com/fin";
     skosmos:language "nl", "en";
     skosmos:defaultLanguage "nl";
     skosmos:showTopConcepts true ;
     skosmos:groupClass isothes:ConceptGroup ;
-    void:sparqlEndpoint <http://fuseki:3030/gentdb/sparql> ;
-    skosmos:sparqlGraph <http://skos.um.es/unescothes/> .
+    void:sparqlEndpoint <http://sparql-skosmos.e4ff.pro-eu-west-1.openshiftapps.com/fin/sparql> ;
+    skosmos:sparqlGraph <http://sparql-skosmos.e4ff.pro-eu-west-1.openshiftapps.com/fin/> .
 
 
 :doelgroepen a skosmos:Vocabulary, void:Dataset ;
     dc:title "Doelgroepen Thesaurus"@nl, "Groups Thesaurus"@en ;
     skosmos:shortName "Doelgroepen";
     dc:subject :cat_general ;
-    void:uriSpace "http://fuseki:3030/gentdb";
+    void:uriSpace "http://sparql-skosmos.e4ff.pro-eu-west-1.openshiftapps.com/fin";
     skosmos:language "nl", "en";
     skosmos:defaultLanguage "nl";
     skosmos:showTopConcepts true ;
     skosmos:groupClass isothes:ConceptGroup ;
-    void:sparqlEndpoint <http://fuseki:3030/gentdb/sparql> ;
-    skosmos:sparqlGraph <http://skos.um.es/unescothes/> .
+    void:sparqlEndpoint <http://sparql-skosmos.e4ff.pro-eu-west-1.openshiftapps.com/fin/sparql> ;
+    skosmos:sparqlGraph <http://sparql-skosmos.e4ff.pro-eu-west-1.openshiftapps.com/fin/> .
 
 
 :categories a skos:ConceptScheme;
